@@ -1843,6 +1843,5 @@ declare var element: protractor.Element;
 declare var $: cssSelectorHelper;
 declare var $$: cssArraySelectorHelper;
 
-declare module 'protractor' {
-    export = protractor;
-}
+
+export = protractor;
